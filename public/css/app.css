@@ -1,0 +1,17 @@
+/* Error: Invalid URL: Scheme not starting with alphabetic character
+ *   ,
+ * 8 | @import $fa-font-path : "../../node_modules/@fortawesome/fontawesome-free/webfonts"
+ *   |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ *   '
+ *   src/sass/app.sass 8:9  root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: Invalid URL: Scheme not starting with alphabetic character\a   \2577 \a 8 \2502  @import $fa-font-path : "../../node_modules/@fortawesome/fontawesome-free/webfonts"\a   \2502          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\a   \2575 \a   src/sass/app.sass 8:9  root stylesheet';
+}
